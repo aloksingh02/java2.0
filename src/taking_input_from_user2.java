@@ -40,16 +40,16 @@ public class taking_input_from_user2 {
 
         //AREA OF QUARDRATIC
         int a,b,c;
-        double r1,r2;
+        double r1;
 
         System.out.println("enter the four side a,b,c");
         a=sc.nextInt();
         b=sc.nextInt();
-        c=sc.nextInt();
-
-        r1=(-b+Math.sqrt(b*b-4*a*c)/2*a);
-        r2=(b+Math.sqrt(b*b-4*a*c)/2*a);
-
-        System.out.println("root of"+r1+"and"+r2);
+//        c=sc.nextInt();
+//
+//        r1=(-b+Math.sqrt(b*b-4*a*c)/2*a);
+//        r2=(b+Math.sqrt(b*b-4*a*c)/2*a);
+//
+//        System.out.println("root of"+r1+"and"+r2);
     }
 }
