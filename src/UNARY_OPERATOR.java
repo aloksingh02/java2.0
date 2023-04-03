@@ -76,6 +76,6 @@ public class UNARY_OPERATOR {
 
 //        12.
         char c = 'A', C = 'a';
-        System.out.println(c++ * ++C);
+        System.out.println(c++ * ++c);
     }
 }
